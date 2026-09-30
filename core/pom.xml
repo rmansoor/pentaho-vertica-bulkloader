@@ -5,10 +5,10 @@
   <parent>
     <groupId>org.pentaho</groupId>
     <artifactId>vertica-bulkloader</artifactId>
-    <version>9.4.0.0-SNAPSHOT</version>
+    <version>9.4.0.0-jdk21-1</version>
   </parent>
   <artifactId>vertica-bulkloader-core</artifactId>
-  <version>9.4.0.0-SNAPSHOT</version>
+  <version>9.4.0.0-jdk21-1</version>
   <name>${project.artifactId}</name>
   <description></description>
   <dependencies>
@@ -49,7 +49,7 @@
     <dependency>
       <groupId>pentaho-kettle</groupId>
       <artifactId>kettle-core</artifactId>
-      <version>${project.version}</version>
+      <version>${pdi.version}</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
